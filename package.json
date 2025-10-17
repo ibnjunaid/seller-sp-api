@@ -1,0 +1,55 @@
+{
+  "name": "amazon-sp-api-client",
+  "version": "1.0.0",
+  "description": "TypeScript client for Amazon SP-API Search Listings Items endpoint",
+  "type": "module",
+  "main": "dist/amazon-sp-api-client.js",
+  "types": "dist/amazon-sp-api-client.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "docs": "typedoc",
+    "docs:serve": "typedoc --watch"
+  },
+  "keywords": [
+    "amazon",
+    "sp-api",
+    "selling-partner-api",
+    "typescript",
+    "nodejs",
+    "e-commerce"
+  ],
+  "author": "Osamabinjunaid36@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "joi": "^18.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/joi": "^17.2.2",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "typedoc": "^0.28.14",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibnjunaid/amazon-sp-api-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibnjunaid/amazon-sp-api-client/issues"
+  },
+  "homepage": "https://github.com/ibnjunaid/amazon-sp-api-client#readme"
+}
