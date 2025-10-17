@@ -4,14 +4,14 @@ A TypeScript client for Amazon Selling Partner API's Search Listings Items endpo
 
 ## Features
 
-- ✅ **Comprehensive Input Validation**: Uses Joi for robust parameter validation
-- ✅ **TypeScript Support**: Full TypeScript definitions and type safety
-- ✅ **Error Handling**: Detailed error messages and proper error types
-- ✅ **Mutual Exclusivity**: Validates mutually exclusive parameters
-- ✅ **Conditional Requirements**: Validates conditional parameter dependencies
-- ✅ **ISO Date Validation**: Proper ISO 8601 date format validation
-- ✅ **Range Validation**: Validates numeric ranges and array sizes
-- ✅ **URL Validation**: Validates API endpoint URLs
+-  **Comprehensive Input Validation**: Uses Joi for robust parameter validation
+-  **TypeScript Support**: Full TypeScript definitions and type safety
+-  **Error Handling**: Detailed error messages and proper error types
+-  **Mutual Exclusivity**: Validates mutually exclusive parameters
+-  **Conditional Requirements**: Validates conditional parameter dependencies
+-  **ISO Date Validation**: Proper ISO 8601 date format validation
+-  **Range Validation**: Validates numeric ranges and array sizes
+-  **URL Validation**: Validates API endpoint URLs
 
 ## Installation
 
@@ -65,7 +65,7 @@ The client constructor validates:
 - **headers**: Must be an object with string keys and values
 
 ```typescript
-// ✅ Valid configuration
+//  Valid configuration
 const client = new AmazonSpApiClient({
   baseUrl: 'https://sellingpartnerapi-na.amazon.com',
   timeout: 30000,
@@ -106,7 +106,7 @@ Only one of these can be used at a time:
 ### Validation Examples
 
 ```typescript
-// ✅ Valid parameters
+//  Valid parameters
 await client.searchListingsItems({
   sellerId: 'A1B2C3D4E5F6G7',
   marketplaceIds: ['ATVPDKIKX0DER'],
