@@ -37,7 +37,7 @@ jobs:
 
       - name: update packages
         run: |
-          apt update -y 
+          sudo apt update -y
 
       # - name: Run ESLint
       #   env:
